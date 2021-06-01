@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= pageTitle %> </title>
+    <link rel="stylesheet" href="../css/chat.css">
+</head>
+<body>
+    <header>
+        <%- include ('partials/structure/head.ejs') %> 
+        <%- include ('partials/navbar/navbar.ejs') %> 
+    </header>
+
+    <div id="chat-display">
+        <p class="">Welcome...add your message using the form</p>
+    </div>
+
+    <div class="form">
+        <form name="chatForm" id="chatForm" class="">
+        
+                <label for="chat-username" class="">Name</label>
+                <input type="text" class="" id="chat-username" required placeholder="Enter your name">
+
+                <label for="chat-message" class="">Message</label>
+                <input type="text" placeholder="Enter a message" class="" id="chat-message" rows="2" autocomplete="off" required>
+                    
+                <button id="chat-submit" class="" type="submit">Chat</button>
+
+        </form>
+    </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.0.5/socket.io.js"></script>
+    <script src="../js/chat.js"></script>
+</body>
+</html>

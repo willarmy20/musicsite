@@ -1,0 +1,47 @@
+{
+
+    "albums": [{
+        "index":0,
+        "name": "Rod Wave",
+        "shortname": "~Ghetto Gospel~",
+        "albumname" : "Ghetto Gospel",
+        "summary" : "Ghetto Gospel is the debut studio album by American rapper and singer Rod Wave from St. Petersburg, Florida. It was released on November 1, 2019, by Alamo Records and distributed by Interscope Records. It features guest appearances from Kevin Gates and Lil Durk. The former also served as executive producer during production.[1] The album peaked at number ten on the US Billboard 200. The album was certified gold by the Recording Industry Association of America (RIAA).",
+        "artwork": ["/images/rodwave/Ghetto.png"],
+        "tracklist": ["Sky Priority", "Dark Conversations", "Close Enough to Hurt", "Green Light", "Brace Face", "Poison", "Cuban Links (featuring Kevin Gates)", "Soldier Life", "Counted Steps", "Titanic (featuring Kevin Gates)", "Extra", "Abandoned", "Chip on My Shoulder", "Heart on Ice (Remix) (featuring Lil Durk)"],
+        "albumAM": "",
+        "albumSM": ""
+    },{
+        "index":1,
+        "name": "Rod Wave",
+        "shortname": "~Pray 4 Love~",
+        "albumname" : "Pray 4 Love",
+        "summary": "Pray 4 Love is the second studio album by American rapper and singer Rod Wave. It was released on April 3, 2020, through Alamo Records. The album contains one collaboration featuring American rapper ATR Son Son on the track Rags2Riches. A deluxe edition was released on August 7, 2020, featuring Yo Gotti and Lil Baby, the latter on the remix of Rags2Riches.[1] Twelve of the album's tracks charted on the Billboard Hot 100, with Rags2Riches becoming Rod Wave's highest-charting song at the time, peaking at number 12.[2] Music videos were released for all of the album's singles.[3]",
+        "artwork": ["/images/rodwave/pray_4_love.png"],
+        "tracklist": ["Pray 4 Love", "Fuck the World", "Thief in the Night", "Thug Life", "I Remember", "Rags2Riches (featuring ATR Son Son)", "No Weakness", "Roaming", "The Greatest", "Ribbon in the Sky", "5% Tints", "Girl of My Dreams", "Thug Motivation", "Dark Clouds"],
+        "albumAM": "",
+        "albumSM": ""
+    },{
+        "index":2,
+        "name": "Rod Wave",
+        "shortname": "~PTSD~",
+        "albumname" : "PTSD",
+        "summary": "SoulFly is the third studio album by American rapper Rod Wave. It was released on March 26, 2021, through Alamo Records. As with his previous album, Pray 4 Love, SoulFly includes one guest appearance, American rapper Polo G. The 19-track album continues Rod Wave's signature tenacity for poignant and evocative storytelling",
+        "artwork" : ["/images/rodwave/ptsd.png"],
+        "tracklist":[ "Popular Loner", "Hard Times", "PTSD", "Heart On Ice", "Paint the sky red", "Calabasas (ft.E-40)", "Proud Of Me", "No Love", "How would you feel", "True Story", "ATR for Life", "Bottom Boy Survivor"],
+        "albumAM": "",
+        "albumSM": ""
+    },{
+        "index":3,
+        "name": "Rod Wave",
+        "shortname": "~Soul Fly~",
+        "albumname" : "SoulFly",
+        "summary": "SoulFly is the third studio album by American rapper Rod Wave. It was released on March 26, 2021, through Alamo Records. As with his previous album, Pray 4 Love, SoulFly includes one guest appearance, American rapper Polo G. The 19-track album continues Rod Wave's signature tenacity for poignant and evocative storytelling",
+        "artwork" : ["/images/rodwave/soulFly.png"],
+        "tracklist": ["SoulFly", "Gone Till November", "Thief in the Night", "Don't Forget", "Tombstone", "All I Got", "Richer (featuring Polo G)", "Street Runner", "Pills & Billz", "How the Game Go", "Shock da World", "What's Love??", "OMDB", "Invisible Scar", "Calling", "Sneaky Links", "Believe Me", "Moving On", "Changing"],
+        "albumAM": "",
+        "albumSM": ""
+    }
+    ]
+
+}
+    

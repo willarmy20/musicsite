@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/feedback.css">
+    <title>Comment</title>
+</head>
+<body>
+    <header>
+    <%- include ('partials/navbar/navbar.ejs') %> 
+    </header>
+        <main>
+            <div class="formFlex">
+                <form action="" id="feedbackForm">
+                    <div class="formDiv">
+                    <label for="feedbackName">Name</label>
+                    <input type="text" class="" id="feedbackName" placeholder="Name">
+                    </div>
+                    <div class="formDiv">
+                    <label for="feedbackTitle">Title</label>
+                    <input type="text" class="" id="feedbackTitle" placeholder="Title">
+                    </div>
+                    <div class="formDiv">
+                    <label for="feedbackMessage">Message</label>
+                    <textarea  id="feedbackMessage" cols="30" rows="10" placeholder="What's on your mind?"></textarea>
+                    </div>
+                    <button type="submit" id="formButton" >Submit</button>
+                </form>
+                <aside id="messageDisp">
+                </aside>
+            </div>
+    
+        </main>
+    
+    <script src="/js/feedback.js"></script>
+</body>
+</html>

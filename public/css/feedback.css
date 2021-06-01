@@ -1,0 +1,91 @@
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-nav{
+    
+    display:flex;
+}
+.main-nav li{    
+    list-style-type: none;
+    padding:10px;
+}
+.nav-links{
+    color:black;
+    text-decoration: none;
+    font-size: 1.5em;
+
+}
+.nav-links:hover{
+    color:rgb(252, 238, 193);
+}
+
+
+
+.formFlex{
+    display:flex;
+    justify-content: space-evenly;
+    background: black;
+}
+
+#feedbackForm{
+    background-color: orange; 
+    background-color:black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    /* padding-left:2em; */
+    /* width:50%; */
+}
+
+.formDiv{
+    display:flex;
+    flex-direction: column;
+    padding:10px;
+    
+}
+
+input{
+    width:300px;
+    height:30px;
+}
+textarea{
+    /* width:50%; */
+    width:300px;
+}
+#formButton{
+    border:none;
+    font-family: inherit;
+    width:100px;
+    height:30px;
+    margin:10px;
+    background-color:white;
+}
+#formButton:hover{
+    background-color: rgb(252, 236, 185);
+}
+#messageDisp{
+    background-color: black;
+    width:320px;
+}
+
+.comment{
+    background-color: white;
+    color:black;
+    margin:10px;
+}
+.comment p {
+    /* background-color: tan; */
+    padding-left:10px;
+    margin:0px;
+    
+}
+.commentMessage{
+    background-color: whitesmoke;
+    padding-bottom:10px;
+    padding-top:10px;
+}

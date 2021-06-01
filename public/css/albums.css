@@ -1,0 +1,123 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color:white;
+    width:100vw;
+    height:100vh;
+
+}
+/* header and nav*/
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-nav{
+    
+    display:flex;
+}
+.main-nav li{    
+    list-style-type: none;
+    padding:10px;
+}
+.nav-links{
+    color:inherit;
+    text-decoration: none;
+    font-size: 1.5em;
+
+}
+.nav-links:hover{
+    color:rgb(252, 238, 193);
+}
+
+
+/* /* .bandImages{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+} */
+
+/* .bandBio{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.bioText{
+    width:90%;
+}   */
+
+/* .wikipedia{
+    text-decoration: none;
+    color:white;
+    margin-bottom: 2em;
+}
+.wikipedia:hover{
+    color:rgb(252, 238, 193);
+}  */
+
+.albums{
+    display:flex;
+    flex-wrap: wrap;
+    background-color:black;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.albumMenu{
+    padding:10px;
+    
+}
+.albumMenu:hover{
+    border:3px solid white;
+}
+
+.albumDetail{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:black;
+    /* display:flex; */
+    /* justify-content: center; */
+} 
+h3{
+   text-align: center;
+}
+.albumDleft{
+    background-color:black;
+    color: white;
+    /* display:flex;   */
+    /* flex-direction: row;
+    align-items: center;*/
+    justify-content: center;
+} 
+.tracks{
+    background-color:black;
+    color: white;
+    /* display:flex; */
+    /* flex-direction: row; */
+    /* align-items: center;
+    justify-content: start;  */
+}
+
+.artwork{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
+
+/* li{
+    display: block;
+    list-style-type: decimal;
+    margin-top: 0;
+    margin-bottom:1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 650px;
+} */

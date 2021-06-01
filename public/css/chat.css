@@ -1,0 +1,47 @@
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background: black; 
+}
+
+.main-nav{
+    
+    display:flex;
+}
+.main-nav li{    
+    list-style-type: none;
+    padding:10px;
+}
+.nav-links{
+    color:white;
+    text-decoration: none;
+    font-size: 1.5em;
+
+}
+.nav-links:hover{
+    color:rgb(252, 238, 193);
+}
+
+body{
+  background: red;
+}
+
+#chat-display{
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+}
+
+div.form{
+    display: block;
+    text-align: center;
+}
+
+form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rod Wave Albums</title>
+    <link rel="stylesheet" href="/css/albums.css">
+  </head>
+
+
+<body>
+
+    <header>
+      <%- include ('partials/navbar/navbar.ejs') %> 
+      <%- include ('partials/structure/head.ejs') %> 
+  </header>
+
+
+<main>
+    <% if(!albumDetails){ %> 
+      <div class="albums">
+          <% for( let i = 0; i < pageAlbums.length; i++ ) { %>
+          <a href="/albums/<%=pageAlbums[i].index%>" class="albumMenu"><img src="<%= pageAlbums[i].artwork %>" alt="" height="500px"></a>
+      
+          <% } %> 
+      </div>
+          <% } else { %>
+              <div class="albumDetail">
+              <div class="albumDleft">
+              <img class="artwork" id="cardImg1" src="<%=albumDetails.artwork %> " alt="" height="350px">
+              <h3 class="shortname"><%= albumDetails.shortname%></h3>
+              <h3 class=""><%= albumDetails.summary %></h3>
+              </div>
+
+              <div class="tracks">
+                  <h3>~Tracks~</h3>
+              <ol>
+              <% albumDetails.tracklist.forEach(song =>{ %> 
+                  <li><%= song %> </li>
+              <% }) %> 
+              </ol>
+              </div>
+          </div>
+          <% } %>
+    </main>
+
+
+  </body>
+</html>
