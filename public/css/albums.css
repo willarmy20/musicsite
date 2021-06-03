@@ -86,7 +86,7 @@ header{
     /* justify-content: center; */
 } 
 h3{
-   text-align: center;
+text-align: center;
 }
 .albumDleft{
     background-color:black;
@@ -99,10 +99,10 @@ h3{
 .tracks{
     background-color:black;
     color: white;
-    /* display:flex; */
-    /* flex-direction: row; */
-    /* align-items: center;
-    justify-content: start;  */
+    display:flex;
+    flex-direction: column;  
+    align-items: center;
+    /* justify-content: start;   */
 }
 
 .artwork{
@@ -120,4 +120,4 @@ h3{
     margin-left: 0;
     margin-right: 0;
     padding-left: 650px;
-} */
+}  */

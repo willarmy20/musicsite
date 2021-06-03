@@ -13,7 +13,6 @@
 
     <header>
       <%- include ('partials/navbar/navbar.ejs') %> 
-      <%- include ('partials/structure/head.ejs') %> 
   </header>
 
 
@@ -35,7 +34,7 @@
 
               <div class="tracks">
                   <h3>~Tracks~</h3>
-              <ol>
+              <ol class="tracks" >
               <% albumDetails.tracklist.forEach(song =>{ %> 
                   <li><%= song %> </li>
               <% }) %> 
