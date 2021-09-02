@@ -15,7 +15,7 @@ This just give you information about him as a person. All information was pulled
 The Albums section is some of his projects as a artisit. You can click on the clip art and it will take you to the clip art, information about the album, and a track list. 
   
 <p align="center">
-  <img width="750" alt="surviving" src="/client/public/images/daGang.jpg">
+  <img width="750" alt="cipart" src="/public/images/rodwave/clipart.png">
 </p>
 
 ## <p align="center"> Comment</p>
