@@ -1,8 +1,9 @@
 # <p align="center"> Rod Wave Music site</p>
+<p align="center"><a href="https://blooming-journey-57634.herokuapp.com/">Live Demo</a></p>
 
 Welcome to Rod Wave Music Site! Rob wave is one of my favorite artist, so I made a site all about him. Also in this app you can chat and leave comments so i know that you where here. I really hope you enjoy. 
 <p align ="center" >
-<img width="750" alt="" src="/public/images/rodwave/ipod.png">
+<img width="750" alt="" src="/public/images/landingpage/ipod.png">
 </p>
 
 
