@@ -49,7 +49,7 @@ The comment section is where you can post on the wall and let us know that you w
 
 ## <p align="center"> Stretch Goals (Future)</p>
 - Be able to add music some to the site so it can play in the back ground
-- Be able to have a dark and light button and it changes on the app. 
+- Be able to have a dark and light button and it changes on every page. 
 
 
 ## <p align="center"> Developer team</p>
